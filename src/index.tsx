@@ -3,12 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {splitIntoWords} from "./01/01";
+
+const sentence = "Hello my friiends!";
+const result = splitIntoWords(sentence);
+
+console.log(result)
+console.log(result[0] === "hello")
+console.log(result[1] === "my")
+console.log(result[2] === "friend")
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
