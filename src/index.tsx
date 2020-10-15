@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {splitIntoWords} from "./01/01";
+import {sum} from "./03/03";
 
-const sentence = "Hello my friiends!";
-const result = splitIntoWords(sentence);
+var a = sum(1,2);
 
-console.log(result)
-console.log(result[0] === "hello")
-console.log(result[1] === "my")
-console.log(result[2] === "friend")
+
+
 
 ReactDOM.render(
     <React.StrictMode>
