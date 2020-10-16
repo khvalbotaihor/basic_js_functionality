@@ -10,7 +10,7 @@ const callback = () => {
 export const User = () => {
 
     const search = (event: MouseEvent<HTMLButtonElement>) => {
-         event.currentTarget.value
+         //event.currentTarget.value
     }
 
     const onNameChanged = () => {
