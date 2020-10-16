@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {sum} from "./03/03";
+import {User} from "./06-callback/06-callback";
 
 var a = sum(1,2);
 
@@ -12,7 +13,7 @@ var a = sum(1,2);
 
 ReactDOM.render(
     <React.StrictMode>
-        <App/>
+        <User />
     </React.StrictMode>,
     document.getElementById('root')
 );

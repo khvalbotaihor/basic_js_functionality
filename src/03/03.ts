@@ -1,7 +1,6 @@
 import {StudentType} from "../02/02";
 import {CityType, govermentBuildings, HouseType} from "../02/02_02";
 
-debugger;
 export const sum = (a: number, b:number) =>{
     return a+ b
 }
